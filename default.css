@@ -1,0 +1,68 @@
+body{
+				background:url('back5.jpg');
+			}
+			img.headlogo{
+				width:90px;
+				height:60px;
+				float:left;
+				-moz-animation:myfirst 2s linear 2s infinite alternate;
+				-webkit-animation:myfirst 2s linear 2s infinite alternate;
+			}
+			@-moz-keyframes myfirst /* Firefox */
+			{
+				from{
+					-moz-transform:rotateY(0deg);
+				}
+				to{
+					-moz-transform:rotateY(360deg);
+				}
+			}
+			@-webkit-keyframes myfirst /* Chrome */
+			{
+				from{
+					-webkit-transform:rotateY(0deg);
+				}
+				to{
+					-webkit-transform:rotateY(360deg);
+				}
+			}
+
+#usernameslist{
+	float:left;
+	clear:both;
+	width:10%;
+	border-right:3px solid black;
+	height:55%;
+	overflow:auto;
+	padding:10px;
+	color:black;
+}
+
+#users{
+height:300px;overflow:auto;background-color:white;opacity:0.6;
+}
+
+#video_container{
+float:left;width:800px;height:550px;padding:0;background:none;
+}
+
+#par{
+float:right;width:25%;height:56%;overflow:auto;padding:10px;color:black;border-left:3px solid black;
+}
+
+#conversation{
+height:300px;overflow:auto;background-color:white;opacity:0.6;
+}
+
+#canvas{
+width:750px;
+height:180px;
+border-radius:10px;opacity:0.6;border:1px solid #000000;background-color:white;border:4px solid black;float:left;
+}
+
+#copyright{
+background-color:#C0C0C0;float:right;clear:right;margin-top:50px;padding:20px;border-radius:10px;border:10px solid black;
+}
+
+
+
